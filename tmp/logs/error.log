@@ -1,0 +1,1795 @@
+2017-11-23 16:44:31 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /cakephp/users/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3617): ConnectionManager::getDataSource('default')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1155): Model->setDataSource('default')
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3644): Model->setSource('users')
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): Model->getDataSource()
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#7 C:\xampp\htdocs\cakephp\app\Controller\UsersController.php(5): Model->find('all')
+#8 [internal function]: UsersController->index()
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#12 C:\xampp\htdocs\cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2017-11-23 16:45:37 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /cakephp/users/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3617): ConnectionManager::getDataSource('default')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1155): Model->setDataSource('default')
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3644): Model->setSource('users')
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): Model->getDataSource()
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#7 C:\xampp\htdocs\cakephp\app\Controller\UsersController.php(5): Model->find('all')
+#8 [internal function]: UsersController->index()
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#12 C:\xampp\htdocs\cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2017-11-23 16:46:14 Error: [MissingActionException] Action UsersController::hello.php() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'hello.php',
+)
+Request URL: /cakephp/users/hello.php
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-11-23 16:46:46 Error: [MissingActionException] Action UsersController::hello.php() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'hello.php',
+)
+Request URL: /cakephp/users/hello.php
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-11-23 16:46:48 Error: [MissingActionException] Action UsersController::hello.php() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'hello.php',
+)
+Request URL: /cakephp/users/hello.php
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-11-23 17:12:58 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /cakephp/users/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3617): ConnectionManager::getDataSource('default')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1155): Model->setDataSource('default')
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3644): Model->setSource('users')
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): Model->getDataSource()
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#7 C:\xampp\htdocs\cakephp\app\Controller\UsersController.php(5): Model->find('all')
+#8 [internal function]: UsersController->index()
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#12 C:\xampp\htdocs\cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2017-11-23 17:17:14 Error: Fatal Error (1): Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown in [C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php, line 116]
+2017-11-23 17:17:14 Error: [FatalErrorException] Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown
+Request URL: /cakephp/users/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(933): ErrorHandler::handleError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2017-11-23 17:17:35 Error: Fatal Error (1): Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown in [C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php, line 116]
+2017-11-23 17:17:35 Error: [FatalErrorException] Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown
+Request URL: /cakephp/users/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(933): ErrorHandler::handleError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2017-11-23 17:21:01 Error: Fatal Error (1): Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of Error given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(Error))
+#1 {main}
+  thrown in [C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php, line 116]
+2017-11-23 17:21:01 Error: [FatalErrorException] Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of Error given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(Error))
+#1 {main}
+  thrown
+Request URL: /cakephp/users/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(933): ErrorHandler::handleError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2017-11-23 17:21:18 Error: [MissingLayoutException] Layout file "Layouts\home.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Layouts\\home.ctp',
+)
+Request URL: /cakephp/users/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(514): View->_getLayoutFileName('home')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(481): View->renderLayout('', 'home')
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, 'home')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 C:\xampp\htdocs\cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2017-11-24 17:48:28 Error: [MissingActionException] Action UsersController::hello() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'hello',
+)
+Request URL: /cakephp/users/hello
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-11-24 17:49:15 Error: Fatal Error (1): Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown in [C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php, line 116]
+2017-11-24 17:49:15 Error: [FatalErrorException] Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown
+Request URL: /cakephp/users/hello
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(933): ErrorHandler::handleError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2017-11-24 17:49:43 Error: Fatal Error (1): Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown in [C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php, line 116]
+2017-11-24 17:49:43 Error: [FatalErrorException] Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown
+Request URL: /cakephp/users/hello
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(933): ErrorHandler::handleError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2017-11-24 18:05:52 Error: [MissingActionException] Action BooksController::index.ctp() could not be found.
+Exception Attributes: array (
+  'controller' => 'BooksController',
+  'action' => 'index.ctp',
+)
+Request URL: /cakephp/books/index.ctp
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-11-24 18:11:52 Error: [MissingViewException] View file "Books\index2.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Books\\index2.ctp',
+)
+Request URL: /cakephp/books/index2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(470): View->_getViewFileName('Books\\index2')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-24 18:13:34 Error: Fatal Error (1): Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ArgumentCountError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ArgumentCountError))
+#1 {main}
+  thrown in [C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php, line 116]
+2017-11-24 18:13:34 Error: [FatalErrorException] Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ArgumentCountError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ArgumentCountError))
+#1 {main}
+  thrown
+Request URL: /cakephp/books/index2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(933): ErrorHandler::handleError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2017-11-24 18:18:20 Error: Fatal Error (1): Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown in [C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php, line 116]
+2017-11-24 18:18:21 Error: [FatalErrorException] Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown
+Request URL: /cakephp/books/index3
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(933): ErrorHandler::handleError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2017-11-24 18:18:51 Error: Fatal Error (1): Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown in [C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php, line 116]
+2017-11-24 18:18:51 Error: [FatalErrorException] Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown
+Request URL: /cakephp/books/index3
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(933): ErrorHandler::handleError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2017-11-24 18:20:35 Error: Fatal Error (1): Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown in [C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php, line 116]
+2017-11-24 18:20:35 Error: [FatalErrorException] Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown
+Request URL: /cakephp/books/index3
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(933): ErrorHandler::handleError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2017-11-24 18:25:02 Error: [MissingViewException] View file "Books\pure_s_q_l.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Books\\pure_s_q_l.ctp',
+)
+Request URL: /cakephp/books/pureSQL
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(470): View->_getViewFileName('Books\\pure_s_q_...')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-24 18:26:08 Error: [MissingViewException] View file "Books\pure_s_q_l.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Books\\pure_s_q_l.ctp',
+)
+Request URL: /cakephp/books/pureSQL
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(470): View->_getViewFileName('Books\\pure_s_q_...')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-26 17:03:51 Error: [MissingActionException] Action BooksController::jquery-3.2.1.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'BooksController',
+  'action' => 'jquery-3.2.1.min.js',
+)
+Request URL: /cakephp/books/jquery-3.2.1.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-11-26 17:04:07 Error: [MissingActionException] Action BooksController::jquery-3.2.1.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'BooksController',
+  'action' => 'jquery-3.2.1.min.js',
+)
+Request URL: /cakephp/books/jquery-3.2.1.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-11-26 17:04:13 Error: [MissingActionException] Action BooksController::jquery-3.2.1.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'BooksController',
+  'action' => 'jquery-3.2.1.min.js',
+)
+Request URL: /cakephp/books/jquery-3.2.1.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-11-26 17:06:21 Error: [MissingActionException] Action BooksController::jquery-3.2.1.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'BooksController',
+  'action' => 'jquery-3.2.1.min.js',
+)
+Request URL: /cakephp/books/jquery-3.2.1.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-11-26 17:06:37 Error: [MissingActionException] Action BooksController::jquery-3.2.1.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'BooksController',
+  'action' => 'jquery-3.2.1.min.js',
+)
+Request URL: /cakephp/books/jquery-3.2.1.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-11-26 17:07:48 Error: [MissingActionException] Action BooksController::jquery-3.2.1.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'BooksController',
+  'action' => 'jquery-3.2.1.min.js',
+)
+Request URL: /cakephp/books/jquery-3.2.1.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-11-26 17:07:55 Error: [MissingActionException] Action BooksController::jquery-3.2.1.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'BooksController',
+  'action' => 'jquery-3.2.1.min.js',
+)
+Request URL: /cakephp/books/jquery-3.2.1.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-11-26 17:11:16 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/js/jquery-3.2.1.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-26 17:11:16 Error: [MissingActionException] Action BooksController::jquery-3.2.1.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'BooksController',
+  'action' => 'jquery-3.2.1.min.js',
+)
+Request URL: /cakephp/books/jquery-3.2.1.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-11-26 17:11:16 Error: [MissingActionException] Action BooksController::jquery-3.2.1.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'BooksController',
+  'action' => 'jquery-3.2.1.min.js',
+)
+Request URL: /cakephp/books/jquery-3.2.1.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-11-26 17:11:30 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/js/jquery-3.2.1.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-26 17:12:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/js/jquery-3.2.1.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-26 17:12:43 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/js/jquery-3.2.1.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-27 10:07:13 Error: [MissingActionException] Action BooksController::searcg() could not be found.
+Exception Attributes: array (
+  'controller' => 'BooksController',
+  'action' => 'searcg',
+)
+Request URL: /cakephp/books/searcg
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-11-27 10:12:08 Error: [NotFoundException] Not Found
+Request URL: /cakephp/books/view/page:6/sort:id/direction:asc/Book.title:/Book.description:
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(1086): PaginatorComponent->paginate(Object(Book), Array, Array)
+#1 C:\xampp\htdocs\cakephp\app\Controller\BooksController.php(68): Controller->paginate('Book', Array)
+#2 [internal function]: BooksController->view()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#6 C:\xampp\htdocs\cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2017-11-27 10:26:24 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM `cakephp`.`books` AS `Book`   WHERE `Book`.`title` LIKE '%%' AND `Book`.`de' at line 1
+Request URL: /cakephp/books/view/Book.title:/Book.description:
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT  FROM `c...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  FROM `c...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1108): DboSource->fetchAll('SELECT  FROM `c...', Array)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Book), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(1086): PaginatorComponent->paginate(Object(Book), Array, Array)
+#8 C:\xampp\htdocs\cakephp\app\Controller\BooksController.php(69): Controller->paginate('Book', Array)
+#9 [internal function]: BooksController->view()
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#13 C:\xampp\htdocs\cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2017-11-27 10:26:34 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM `cakephp`.`books` AS `Book`   WHERE `Book`.`title` LIKE '%%' AND `Book`.`de' at line 1
+Request URL: /cakephp/books/view/Book.title:/Book.description:
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT  FROM `c...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  FROM `c...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1108): DboSource->fetchAll('SELECT  FROM `c...', Array)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Book), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(1086): PaginatorComponent->paginate(Object(Book), Array, Array)
+#8 C:\xampp\htdocs\cakephp\app\Controller\BooksController.php(69): Controller->paginate('Book', Array)
+#9 [internal function]: BooksController->view()
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#13 C:\xampp\htdocs\cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2017-11-28 12:58:06 Error: [MissingActionException] Action BooksController::search_demp() could not be found.
+Exception Attributes: array (
+  'controller' => 'BooksController',
+  'action' => 'search_demp',
+)
+Request URL: /cakephp/books/search_demp
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-11-28 12:58:09 Error: [MissingActionException] Action BooksController::search_demo() could not be found.
+Exception Attributes: array (
+  'controller' => 'BooksController',
+  'action' => 'search_demo',
+)
+Request URL: /cakephp/books/search_demo
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-11-28 13:01:18 Error: Fatal Error (1): Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown in [C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php, line 116]
+2017-11-28 13:01:19 Error: [FatalErrorException] Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown
+Request URL: /cakephp/books/search_demo
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(933): ErrorHandler::handleError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2017-11-28 15:27:38 Error: [MissingActionException] Action BooksController::OutputGoogleSearch() could not be found.
+Exception Attributes: array (
+  'controller' => 'BooksController',
+  'action' => 'OutputGoogleSearch',
+)
+Request URL: /cakephp/books/OutputGoogleSearch
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-11-28 15:53:38 Error: Fatal Error (1): Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ArgumentCountError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ArgumentCountError))
+#1 {main}
+  thrown in [C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php, line 116]
+2017-11-28 15:53:38 Error: [FatalErrorException] Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ArgumentCountError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ArgumentCountError))
+#1 {main}
+  thrown
+Request URL: /cakephp/books/custom_search_demo
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(933): ErrorHandler::handleError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2017-11-28 15:59:38 Error: Fatal Error (1): Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of TypeError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(TypeError))
+#1 {main}
+  thrown in [C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php, line 116]
+2017-11-28 15:59:38 Error: [FatalErrorException] Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of TypeError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(TypeError))
+#1 {main}
+  thrown
+Request URL: /cakephp/books/custom_search_demo
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(933): ErrorHandler::handleError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2017-11-28 16:24:29 Error: [MissingActionException] Action BooksController::do_search() could not be found.
+Exception Attributes: array (
+  'controller' => 'BooksController',
+  'action' => 'do_search',
+)
+Request URL: /cakephp/books/do_search
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-11-28 16:24:35 Error: [MissingActionException] Action BooksController::do_search() could not be found.
+Exception Attributes: array (
+  'controller' => 'BooksController',
+  'action' => 'do_search',
+)
+Request URL: /cakephp/books/do_search
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-11-28 16:24:54 Error: Fatal Error (1): Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown in [C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php, line 116]
+2017-11-28 16:24:54 Error: [FatalErrorException] Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown
+Request URL: /cakephp/books/custom_search_demo
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(933): ErrorHandler::handleError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2017-11-28 16:25:04 Error: Fatal Error (1): Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown in [C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php, line 116]
+2017-11-28 16:25:04 Error: [FatalErrorException] Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown
+Request URL: /cakephp/books/custom_search_demo
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(933): ErrorHandler::handleError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2017-11-28 16:25:40 Error: Fatal Error (1): Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown in [C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php, line 116]
+2017-11-28 16:25:40 Error: [FatalErrorException] Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown
+Request URL: /cakephp/books/custom_search_demo
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(933): ErrorHandler::handleError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2017-11-28 16:25:43 Error: Fatal Error (1): Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown in [C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php, line 116]
+2017-11-28 16:25:43 Error: [FatalErrorException] Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown
+Request URL: /cakephp/books/custom_search_demo
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(933): ErrorHandler::handleError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2017-11-28 16:25:56 Error: Fatal Error (1): Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown in [C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php, line 116]
+2017-11-28 16:25:56 Error: [FatalErrorException] Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown
+Request URL: /cakephp/books/custom_search_demo
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(933): ErrorHandler::handleError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2017-11-28 16:25:58 Error: Fatal Error (1): Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown in [C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php, line 116]
+2017-11-28 16:25:58 Error: [FatalErrorException] Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown
+Request URL: /cakephp/books/custom_search_demo
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(933): ErrorHandler::handleError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2017-11-28 16:26:01 Error: Fatal Error (1): Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown in [C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php, line 116]
+2017-11-28 16:26:01 Error: [FatalErrorException] Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown
+Request URL: /cakephp/books/custom_search_demo
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(933): ErrorHandler::handleError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2017-11-28 16:26:19 Error: [MissingViewException] View file "Books\do_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Books\\do_search.ctp',
+)
+Request URL: /cakephp/books/do_search
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(470): View->_getViewFileName('Books\\do_search')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-28 17:15:40 Error: [MissingActionException] Action Project3sController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'Project3sController',
+  'action' => 'index',
+)
+Request URL: /cakephp/project3s
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(Project3sController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-11-28 17:22:22 Error: [MissingActionException] Action Project3sController::custom_search_demo() could not be found.
+Exception Attributes: array (
+  'controller' => 'Project3sController',
+  'action' => 'custom_search_demo',
+)
+Request URL: /cakephp/project3s/custom_search_demo
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(Project3sController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-11-28 17:54:41 Error: [MissingControllerException] Controller class Project2sController could not be found.
+Exception Attributes: array (
+  'class' => 'Project2sController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/project2s/do_search
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 18:35:21 Error: Fatal Error (1): Allowed memory size of 134217728 bytes exhausted (tried to allocate 65024000 bytes) in [C:\xampp\htdocs\cakephp\lib\Cake\Utility\Debugger.php, line 801]
+2017-11-28 18:35:21 Error: [FatalErrorException] Allowed memory size of 134217728 bytes exhausted (tried to allocate 65024000 bytes)
+Request URL: /cakephp/project3s/custom_search_demo/txt_search:tai%20sao
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Allowed memory ...', 'C:\\xampp\\htdocs...', 801)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(933): ErrorHandler::handleError(1, 'Allowed memory ...', 'C:\\xampp\\htdocs...', 801, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2017-11-28 18:58:11 Error: Fatal Error (1): Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of Error given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(Error))
+#1 {main}
+  thrown in [C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php, line 116]
+2017-11-28 18:58:11 Error: [FatalErrorException] Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of Error given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(Error))
+#1 {main}
+  thrown
+Request URL: /cakephp/project3s/custom_search_demo/txt_search:tai%20sao
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(933): ErrorHandler::handleError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2017-12-07 12:16:39 Error: [MissingActionException] Action BooksController::test_component() could not be found.
+Exception Attributes: array (
+  'controller' => 'BooksController',
+  'action' => 'test_component',
+)
+Request URL: /cakephp/books/test_component
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-12-07 12:16:45 Error: Fatal Error (1): Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of Error given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(Error))
+#1 {main}
+  thrown in [C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php, line 116]
+2017-12-07 12:16:46 Error: [FatalErrorException] Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of Error given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(Error))
+#1 {main}
+  thrown
+Request URL: /cakephp/books/test_component
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(933): ErrorHandler::handleError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2017-12-07 12:18:11 Error: Fatal Error (1): Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of Error given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(Error))
+#1 {main}
+  thrown in [C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php, line 116]
+2017-12-07 12:18:11 Error: [FatalErrorException] Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of Error given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(Error))
+#1 {main}
+  thrown
+Request URL: /cakephp/books/test_component
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(933): ErrorHandler::handleError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2017-12-07 12:18:59 Error: Fatal Error (1): Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of Error given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(Error))
+#1 {main}
+  thrown in [C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php, line 116]
+2017-12-07 12:18:59 Error: [FatalErrorException] Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of Error given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(Error))
+#1 {main}
+  thrown
+Request URL: /cakephp/books/test_component
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(933): ErrorHandler::handleError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2017-12-07 12:20:57 Error: Fatal Error (1): Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of Error given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(Error))
+#1 {main}
+  thrown in [C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php, line 116]
+2017-12-07 12:20:57 Error: [FatalErrorException] Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of Error given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(Error))
+#1 {main}
+  thrown
+Request URL: /cakephp/books/test_component
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(933): ErrorHandler::handleError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2017-12-07 12:21:34 Error: Fatal Error (1): Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of Error given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(Error))
+#1 {main}
+  thrown in [C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php, line 116]
+2017-12-07 12:21:35 Error: [FatalErrorException] Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of Error given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(Error))
+#1 {main}
+  thrown
+Request URL: /cakephp/books/test_component
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(933): ErrorHandler::handleError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2017-12-07 12:21:38 Error: Fatal Error (1): Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of Error given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(Error))
+#1 {main}
+  thrown in [C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php, line 116]
+2017-12-07 12:21:38 Error: [FatalErrorException] Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of Error given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(Error))
+#1 {main}
+  thrown
+Request URL: /cakephp/books/test_component
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(933): ErrorHandler::handleError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2017-12-07 12:37:11 Error: Fatal Error (1): Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown in [C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php, line 116]
+2017-12-07 12:37:11 Error: [FatalErrorException] Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown
+Request URL: /cakephp/books/test_component
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(933): ErrorHandler::handleError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2017-12-07 12:42:45 Error: Fatal Error (1): Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of Error given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(Error))
+#1 {main}
+  thrown in [C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php, line 116]
+2017-12-07 12:42:45 Error: [FatalErrorException] Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of Error given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(Error))
+#1 {main}
+  thrown
+Request URL: /cakephp/books/test_component
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(933): ErrorHandler::handleError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2017-12-07 12:50:10 Error: [MissingActionException] Action BooksController::show_today() could not be found.
+Exception Attributes: array (
+  'controller' => 'BooksController',
+  'action' => 'show_today',
+)
+Request URL: /cakephp/books/show_today
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-12-07 13:08:32 Error: [MissingControllerException] Controller class TesthelperController could not be found.
+Exception Attributes: array (
+  'class' => 'TesthelperController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/testhelper
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-12-07 13:08:53 Error: [MissingControllerException] Controller class TesthelperdemoController could not be found.
+Exception Attributes: array (
+  'class' => 'TesthelperdemoController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/testhelperdemo
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-12-07 13:09:02 Error: [MissingControllerException] Controller class TestHelperDemoController could not be found.
+Exception Attributes: array (
+  'class' => 'TestHelperDemoController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/testHelperDemo
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-12-07 13:09:18 Error: [MissingControllerException] Controller class TestHelperDemoController could not be found.
+Exception Attributes: array (
+  'class' => 'TestHelperDemoController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/testHelperDemo
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-12-07 13:12:08 Error: [MissingControllerException] Controller class TestHelperDempController could not be found.
+Exception Attributes: array (
+  'class' => 'TestHelperDempController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/test_helper_demp
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-12-07 13:12:12 Error: [MissingControllerException] Controller class TestHelperDemoController could not be found.
+Exception Attributes: array (
+  'class' => 'TestHelperDemoController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/test_helper_demo
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-12-07 13:13:22 Error: [MissingControllerException] Controller class MyhelpersController could not be found.
+Exception Attributes: array (
+  'class' => 'MyhelpersController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/myhelpers
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-12-07 13:13:45 Error: [MissingActionException] Action MyhelpersController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'MyhelpersController',
+  'action' => 'index',
+)
+Request URL: /cakephp/myhelpers
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MyhelpersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-12-07 13:13:52 Error: [MissingHelperException] Helper class DemoHelperHelper could not be found.
+Exception Attributes: array (
+  'class' => 'DemoHelperHelper',
+  'plugin' => false,
+)
+Request URL: /cakephp/myhelpers/test
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('DemoHelper')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(858): HelperCollection->__isset('DemoHelper')
+#2 C:\xampp\htdocs\cakephp\app\View\Myhelpers\test.ctp(2): View->__get('DemoHelper')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(971): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render('test', NULL)
+#7 C:\xampp\htdocs\cakephp\app\Controller\MyhelpersController.php(6): Controller->render('test')
+#8 [internal function]: MyhelpersController->test()
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(MyhelpersController), Array)
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MyhelpersController), Object(CakeRequest))
+#12 C:\xampp\htdocs\cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2017-12-07 13:15:05 Error: [MissingHelperException] Helper class DemoHelperHelper could not be found.
+Exception Attributes: array (
+  'class' => 'DemoHelperHelper',
+  'plugin' => false,
+)
+Request URL: /cakephp/myhelpers/test
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('DemoHelper')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(858): HelperCollection->__isset('DemoHelper')
+#2 C:\xampp\htdocs\cakephp\app\View\Myhelpers\test.ctp(2): View->__get('DemoHelper')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(971): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render('test', NULL)
+#7 C:\xampp\htdocs\cakephp\app\Controller\MyhelpersController.php(6): Controller->render('test')
+#8 [internal function]: MyhelpersController->test()
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(MyhelpersController), Array)
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MyhelpersController), Object(CakeRequest))
+#12 C:\xampp\htdocs\cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2017-12-07 13:15:12 Error: [MissingHelperException] Helper class DemoHelperHelper could not be found.
+Exception Attributes: array (
+  'class' => 'DemoHelperHelper',
+  'plugin' => false,
+)
+Request URL: /cakephp/myhelpers/test
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('DemoHelper')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(858): HelperCollection->__isset('DemoHelper')
+#2 C:\xampp\htdocs\cakephp\app\View\Myhelpers\test.ctp(2): View->__get('DemoHelper')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(971): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render('test', NULL)
+#7 C:\xampp\htdocs\cakephp\app\Controller\MyhelpersController.php(6): Controller->render('test')
+#8 [internal function]: MyhelpersController->test()
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(MyhelpersController), Array)
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MyhelpersController), Object(CakeRequest))
+#12 C:\xampp\htdocs\cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2017-12-07 13:15:27 Error: [MissingHelperException] Helper class DemoHelperHelper could not be found.
+Exception Attributes: array (
+  'class' => 'DemoHelperHelper',
+  'plugin' => false,
+)
+Request URL: /cakephp/myhelpers/test
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('DemoHelper')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(858): HelperCollection->__isset('DemoHelper')
+#2 C:\xampp\htdocs\cakephp\app\View\Myhelpers\test.ctp(2): View->__get('DemoHelper')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(971): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render('test', NULL)
+#7 C:\xampp\htdocs\cakephp\app\Controller\MyhelpersController.php(6): Controller->render('test')
+#8 [internal function]: MyhelpersController->test()
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(MyhelpersController), Array)
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MyhelpersController), Object(CakeRequest))
+#12 C:\xampp\htdocs\cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2017-12-07 13:16:03 Error: [MissingHelperException] Helper class DemoHelperHelper could not be found.
+Exception Attributes: array (
+  'class' => 'DemoHelperHelper',
+  'plugin' => false,
+)
+Request URL: /cakephp/myhelpers/test
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('DemoHelper')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(858): HelperCollection->__isset('DemoHelper')
+#2 C:\xampp\htdocs\cakephp\app\View\Myhelpers\test.ctp(2): View->__get('DemoHelper')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(971): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render('test', NULL)
+#7 C:\xampp\htdocs\cakephp\app\Controller\MyhelpersController.php(6): Controller->render('test')
+#8 [internal function]: MyhelpersController->test()
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(MyhelpersController), Array)
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MyhelpersController), Object(CakeRequest))
+#12 C:\xampp\htdocs\cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2017-12-07 13:16:25 Error: [MissingHelperException] Helper class DemoHelperHelper could not be found.
+Exception Attributes: array (
+  'class' => 'DemoHelperHelper',
+  'plugin' => false,
+)
+Request URL: /cakephp/myhelpers/test
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('DemoHelper')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(858): HelperCollection->__isset('DemoHelper')
+#2 C:\xampp\htdocs\cakephp\app\View\Myhelpers\test.ctp(2): View->__get('DemoHelper')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(971): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render('test', NULL)
+#7 C:\xampp\htdocs\cakephp\app\Controller\MyhelpersController.php(6): Controller->render('test')
+#8 [internal function]: MyhelpersController->test()
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(MyhelpersController), Array)
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MyhelpersController), Object(CakeRequest))
+#12 C:\xampp\htdocs\cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2017-12-07 13:18:19 Error: [MissingHelperException] Helper class DemoHelperHelper could not be found.
+Exception Attributes: array (
+  'class' => 'DemoHelperHelper',
+  'plugin' => false,
+)
+Request URL: /cakephp/myhelpers/test
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('DemoHelper')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(858): HelperCollection->__isset('DemoHelper')
+#2 C:\xampp\htdocs\cakephp\app\View\Myhelpers\test.ctp(2): View->__get('DemoHelper')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(971): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render('test', NULL)
+#7 C:\xampp\htdocs\cakephp\app\Controller\MyhelpersController.php(7): Controller->render('test')
+#8 [internal function]: MyhelpersController->test()
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(MyhelpersController), Array)
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MyhelpersController), Object(CakeRequest))
+#12 C:\xampp\htdocs\cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2017-12-07 17:39:27 Error: [MissingActionException] Action BooksController::test_helper() could not be found.
+Exception Attributes: array (
+  'controller' => 'BooksController',
+  'action' => 'test_helper',
+)
+Request URL: /cakephp/books/test_helper
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-12-07 18:10:55 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-12-07 18:14:04 Error: Fatal Error (1): Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown in [C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php, line 116]
+2017-12-07 18:14:04 Error: [FatalErrorException] Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(933): ErrorHandler::handleError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2017-12-07 18:23:02 Error: Fatal Error (1): Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown in [C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php, line 116]
+2017-12-07 18:23:02 Error: [FatalErrorException] Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(933): ErrorHandler::handleError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2017-12-07 18:23:41 Error: Fatal Error (1): Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown in [C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php, line 116]
+2017-12-07 18:23:41 Error: [FatalErrorException] Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(933): ErrorHandler::handleError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2017-12-07 18:23:43 Error: Fatal Error (1): Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown in [C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php, line 116]
+2017-12-07 18:23:44 Error: [FatalErrorException] Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(933): ErrorHandler::handleError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2017-12-07 18:23:45 Error: Fatal Error (1): Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown in [C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php, line 116]
+2017-12-07 18:23:45 Error: [FatalErrorException] Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(933): ErrorHandler::handleError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2017-12-07 18:24:27 Error: Fatal Error (1): Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown in [C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php, line 116]
+2017-12-07 18:24:27 Error: [FatalErrorException] Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(933): ErrorHandler::handleError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2017-12-07 18:24:53 Error: Fatal Error (1): Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown in [C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php, line 116]
+2017-12-07 18:24:54 Error: [FatalErrorException] Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(933): ErrorHandler::handleError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2017-12-07 18:24:56 Error: Fatal Error (1): Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown in [C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php, line 116]
+2017-12-07 18:24:56 Error: [FatalErrorException] Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(933): ErrorHandler::handleError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2017-12-07 18:24:59 Error: Fatal Error (1): Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown in [C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php, line 116]
+2017-12-07 18:24:59 Error: [FatalErrorException] Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(933): ErrorHandler::handleError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2017-12-07 18:25:09 Error: Fatal Error (1): Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown in [C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php, line 116]
+2017-12-07 18:25:09 Error: [FatalErrorException] Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(933): ErrorHandler::handleError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2017-12-07 18:25:11 Error: Fatal Error (1): Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown in [C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php, line 116]
+2017-12-07 18:25:11 Error: [FatalErrorException] Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(933): ErrorHandler::handleError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2017-12-07 18:25:19 Error: Fatal Error (1): Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown in [C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php, line 116]
+2017-12-07 18:25:19 Error: [FatalErrorException] Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown
+Request URL: /cakephp/users/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(933): ErrorHandler::handleError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2017-12-07 18:25:29 Error: Fatal Error (1): Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown in [C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php, line 116]
+2017-12-07 18:25:29 Error: [FatalErrorException] Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(933): ErrorHandler::handleError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2017-12-07 18:25:34 Error: Fatal Error (1): Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown in [C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php, line 116]
+2017-12-07 18:25:34 Error: [FatalErrorException] Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown
+Request URL: /cakephp/users
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(933): ErrorHandler::handleError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2017-12-07 18:26:54 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-12-07 18:27:03 Error: Fatal Error (1): Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown in [C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php, line 116]
+2017-12-07 18:27:03 Error: [FatalErrorException] Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(933): ErrorHandler::handleError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2017-12-07 18:27:34 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'checkLogin' at line 1
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('checkLogin', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('checkLogin', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(612): DboSource->fetchAll('checkLogin', Array, Array)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(827): DboSource->query('checkLogin', Array, Object(User))
+#5 C:\xampp\htdocs\cakephp\app\Controller\UsersController.php(27): Model->__call('checkLogin', Array)
+#6 [internal function]: UsersController->login()
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2017-12-07 18:28:07 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND password = d41d8cd98f00b204e9800998ecf8427e' at line 1
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT * FROM u...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT * FROM u...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('SELECT * FROM u...')
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3447): DboSource->query('SELECT * FROM u...')
+#5 C:\xampp\htdocs\cakephp\app\Model\User.php(7): Model->query('SELECT * FROM u...')
+#6 C:\xampp\htdocs\cakephp\app\Controller\UsersController.php(27): User->checkLogin('', 'd41d8cd98f00b20...')
+#7 [internal function]: UsersController->login()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2017-12-07 18:28:25 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'afew' in 'where clause'
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT * FROM u...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT * FROM u...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('SELECT * FROM u...')
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3447): DboSource->query('SELECT * FROM u...')
+#5 C:\xampp\htdocs\cakephp\app\Model\User.php(7): Model->query('SELECT * FROM u...')
+#6 C:\xampp\htdocs\cakephp\app\Controller\UsersController.php(27): User->checkLogin('afew', '7c3daa31f887c33...')
+#7 [internal function]: UsersController->login()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2017-12-07 18:30:21 Error: Fatal Error (1): Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of Error given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(Error))
+#1 {main}
+  thrown in [C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php, line 116]
+2017-12-07 18:30:21 Error: Fatal Error (1): Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of Error given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(Error))
+#1 {main}
+  thrown in [C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php, line 116]
+2017-12-07 18:30:21 Error: [FatalErrorException] Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of Error given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(Error))
+#1 {main}
+  thrown
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(933): ErrorHandler::handleError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2017-12-07 18:30:21 Error: [FatalErrorException] Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of Error given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(Error))
+#1 {main}
+  thrown
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(933): ErrorHandler::handleError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2017-12-07 18:30:30 Error: Fatal Error (1): Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of Error given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(Error))
+#1 {main}
+  thrown in [C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php, line 116]
+2017-12-07 18:30:30 Error: [FatalErrorException] Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of Error given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(Error))
+#1 {main}
+  thrown
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(933): ErrorHandler::handleError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2017-12-07 18:37:05 Error: [MissingActionException] Action UsersController::logout() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'logout',
+)
+Request URL: /cakephp/users/logout
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-12-07 18:45:47 Error: Fatal Error (1): Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown in [C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php, line 116]
+2017-12-07 18:45:47 Error: [FatalErrorException] Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(933): ErrorHandler::handleError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2017-12-07 18:46:12 Error: Fatal Error (1): Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown in [C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php, line 116]
+2017-12-07 18:46:12 Error: [FatalErrorException] Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(933): ErrorHandler::handleError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2017-12-07 18:47:23 Error: Fatal Error (1): Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown in [C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php, line 116]
+2017-12-07 18:47:23 Error: [FatalErrorException] Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(933): ErrorHandler::handleError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2017-12-07 18:47:29 Error: Fatal Error (1): Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown in [C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php, line 116]
+2017-12-07 18:47:29 Error: [FatalErrorException] Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(933): ErrorHandler::handleError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2017-12-10 17:16:09 Error: Fatal Error (1): Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown in [C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php, line 116]
+2017-12-10 17:16:09 Error: [FatalErrorException] Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(933): ErrorHandler::handleError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2017-12-10 17:17:49 Error: Fatal Error (1): Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown in [C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php, line 116]
+2017-12-10 17:17:50 Error: [FatalErrorException] Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown
+Request URL: /cakephp/users/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(933): ErrorHandler::handleError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2017-12-10 17:18:13 Error: Fatal Error (1): Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown in [C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php, line 116]
+2017-12-10 17:18:13 Error: [FatalErrorException] Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown
+Request URL: /cakephp/users/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(933): ErrorHandler::handleError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2017-12-10 17:18:31 Error: Fatal Error (1): Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown in [C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php, line 116]
+2017-12-10 17:18:31 Error: [FatalErrorException] Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown
+Request URL: /cakephp/users/index
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(933): ErrorHandler::handleError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2017-12-10 17:18:35 Error: Fatal Error (1): Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown in [C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php, line 116]
+2017-12-10 17:18:35 Error: [FatalErrorException] Uncaught TypeError: Argument 1 passed to ErrorHandler::handleException() must be an instance of Exception, instance of ParseError given in C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php:116
+Stack trace:
+#0 [internal function]: ErrorHandler::handleException(Object(ParseError))
+#1 {main}
+  thrown
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(933): ErrorHandler::handleError(1, 'Uncaught TypeEr...', 'C:\\xampp\\htdocs...', 116, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2017-12-10 17:40:15 Error: [MissingActionException] Action UsersController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'users',
+)
+Request URL: /cakephp/users/users/info
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2018-01-03 18:10:36 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+',
+  'enabled' => true,
+)
+Request URL: /cakephp/books/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3617): ConnectionManager::getDataSource('default')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1155): Model->setDataSource('default')
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3644): Model->setSource('books')
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): Model->getDataSource()
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#7 C:\xampp\htdocs\cakephp\app\Controller\BooksController.php(18): Model->find('all')
+#8 [internal function]: BooksController->index()
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#12 C:\xampp\htdocs\cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2018-01-03 18:12:57 Error: [MissingActionException] Action BooksController::index23() could not be found.
+Exception Attributes: array (
+  'controller' => 'BooksController',
+  'action' => 'index23',
+)
+Request URL: /cakephp/books/index23
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2018-01-03 18:15:32 Error: [MissingActionException] Action UsersController::logout() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'logout',
+)
+Request URL: /cakephp/users/logout
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
